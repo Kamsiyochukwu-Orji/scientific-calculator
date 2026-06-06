@@ -38,7 +38,7 @@ A modern and responsive Scientific Calculator built with HTML, CSS, and JavaScri
 Add screenshots of your calculator here.
 
 ```markdown
-![Scientific Calculator Screenshot](./screenshot.png)
+![Scientific Calculator Screenshot](./scientific-calculator%20Screenshot.png)
 ```
 
 ---
