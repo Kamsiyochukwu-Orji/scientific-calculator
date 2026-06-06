@@ -5,6 +5,7 @@ A modern and responsive Scientific Calculator built with HTML, CSS, and JavaScri
 ## 🚀 Features
 
 ### Basic Operations
+
 - Addition (+)
 - Subtraction (-)
 - Multiplication (×)
@@ -13,12 +14,14 @@ A modern and responsive Scientific Calculator built with HTML, CSS, and JavaScri
 - Decimal calculations
 
 ### Scientific Functions
+
 - Sine (`sin`)
 - Cosine (`cos`)
 - Tangent (`tan`)
 - Square Root (`√`)
 
 ### Additional Features
+
 - Calculation History
 - Keyboard Support
 - Dark Mode
@@ -30,7 +33,7 @@ A modern and responsive Scientific Calculator built with HTML, CSS, and JavaScri
 
 ---
 
-##  Preview
+## Preview
 
 Add screenshots of your calculator here.
 
@@ -40,7 +43,7 @@ Add screenshots of your calculator here.
 
 ---
 
-##  Built With
+## Built With
 
 - HTML5
 - CSS3
@@ -61,7 +64,7 @@ scientific-calculator/
 
 ---
 
-##  Installation
+## Installation
 
 ### Clone the Repository
 
@@ -81,7 +84,7 @@ Simply open the `index.html` file in your browser.
 
 ---
 
-##  Usage
+## Usage
 
 ### Mouse Input
 
@@ -94,34 +97,34 @@ Simply open the `index.html` file in your browser.
 
 ### Keyboard Shortcuts
 
-| Key | Action |
-|------|---------|
-| 0-9 | Enter numbers |
-| + - * / | Arithmetic operations |
-| Enter | Calculate result |
+| Key       | Action                |
+| --------- | --------------------- |
+| 0-9       | Enter numbers         |
+| + - \* /  | Arithmetic operations |
+| Enter     | Calculate result      |
 | Backspace | Delete last character |
-| Escape | Clear display |
+| Escape    | Clear display         |
 
 ---
 
-##  Scientific Functions
+## Scientific Functions
 
 | Function | Example |
-|-----------|---------|
-| sin(x) | sin(90) |
-| cos(x) | cos(45) |
-| tan(x) | tan(30) |
-| √x | √25 |
+| -------- | ------- |
+| sin(x)   | sin(90) |
+| cos(x)   | cos(45) |
+| tan(x)   | tan(30) |
+| √x       | √25     |
 
 ---
 
-##  Theme Toggle
+## Theme Toggle
 
 Switch between Light Mode and Dark Mode using the theme button located at the top of the calculator interface.
 
 ---
 
-##  Learning Objectives
+## Learning Objectives
 
 This project was built to practice and demonstrate:
 
@@ -138,7 +141,7 @@ This project was built to practice and demonstrate:
 
 ---
 
-##  Future Enhancements
+## Future Enhancements
 
 - Memory Functions (M+, M-, MR, MC)
 - Logarithmic Functions (log, ln)
@@ -151,7 +154,7 @@ This project was built to practice and demonstrate:
 
 ---
 
-##  Contributing
+## Contributing
 
 Contributions are welcome.
 
@@ -198,4 +201,4 @@ Frontend Developer passionate about building responsive, accessible, and user-fr
 
 ---
 
- If you found this project useful, consider giving it a star on GitHub.
+If you found this project useful, consider giving it a star on GitHub.

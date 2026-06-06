@@ -20,8 +20,7 @@ function deleteLast() {
 
 function calculate() {
   try {
-    let expression = display.value;
-
+    let expression = display.value.replace(/(\d+(\.\d+)?)%/g, "($1/100)");
     const result = eval(expression);
 
     const item = document.createElement("li");
