@@ -20,11 +20,31 @@ function deleteLast() {
 
 function calculate() {
   try {
-    let expression = display.value.replace(/(\d+(\.\d+)?)%/g, "($1/100)");
+    let expression = display.value;
+
+    // Convert percentages
+    expression = expression.replace(/(\d+(\.\d+)?)%/g, "($1/100)");
+
+    // Convert trig functions from degrees to radians
+    expression = expression.replace(
+      /sin\(([^)]+)\)/g,
+      "Math.sin(($1 * Math.PI) / 180)",
+    );
+
+    expression = expression.replace(
+      /cos\(([^)]+)\)/g,
+      "Math.cos(($1 * Math.PI) / 180)",
+    );
+
+    expression = expression.replace(
+      /tan\(([^)]+)\)/g,
+      "Math.tan(($1 * Math.PI) / 180)",
+    );
+
     const result = eval(expression);
 
     const item = document.createElement("li");
-    item.textContent = `${expression} = ${result}`;
+    item.textContent = `${display.value} = ${result}`;
 
     historyList.prepend(item);
 
@@ -33,7 +53,6 @@ function calculate() {
     display.value = "Error";
   }
 }
-
 document.addEventListener("keydown", (e) => {
   if (!isNaN(e.key) || "+-*/.%".includes(e.key)) {
     display.value += e.key;
