@@ -94,9 +94,9 @@ button:last-child{
     background:var(--equal);
 }
 
-.zero{
+/* .zero{
     grid-column:span 2;
-}
+} */
 
 .history{
     margin-top:20px;
